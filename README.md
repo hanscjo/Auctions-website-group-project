@@ -14,14 +14,6 @@ For å kjøre prosjektet trengs npm: https://www.npmjs.com/get-npm
 4. Gå inn i client-mappen og skriv npm start
 5. Koden vil nå kjøre i localhost:3000
 
-## Testing
-
-Ikke ferdig
-
-## Deployment
-
-Ikke ferdig
-
 ## Bygd Med
 
 * MERN - MySQL, Express, ReactJS, NodeJS
@@ -49,9 +41,6 @@ Ikke ferdig
 * To utviklere skal godkjenne merge requests før den merges inn i dev
 * Bruk alltid "Squash and merge" som merge-options (merge inn i dev)
 
-## Git-flowsheet
-Lagt til i Google Drive (PU gruppe 69) -> Git/git-cheat-sheet.png
-
 ## Mappe struktur
 
 ### client 
@@ -68,17 +57,3 @@ pictures used in the project
 
 #### hoc
 used for layout purposes
-
-
-## Contributing
-* Harkamaljit Singh
-* Hans Christian Johnsen
-* Erik Hide Sæternes
-* Sigurd Sigurdsson Langfeldt
-* Casper Feng
-* Hanna Bakken Kyrkjebø
-
-## Authors
-
-See also the list of [contributors](https://gitlab.stud.idi.ntnu.no/programvareutvikling-v19/gruppe-69/graphs/dev) who participated in this project.
-
