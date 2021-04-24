@@ -1,0 +1,23 @@
+.header {
+   /* The image used */
+   background-image: url('../../assets/header.jpg');
+
+   /* Full height */
+   height: 650px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 0;
+}
+
+.headerContent {
+  color: white;
+}
+
+.headerContent h1 {
+  padding-top: 250px;
+}
+

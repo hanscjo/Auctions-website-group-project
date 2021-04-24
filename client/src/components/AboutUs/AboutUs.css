@@ -1,0 +1,30 @@
+.aboutus {  
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -20px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 150px;
+}
+
+.aboutUsContainer{
+  padding-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutUsContainerBox1{
+  width: 55%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.aboutUsContainerBox2{
+  width: 30%;
+  color: white;
+  background: #35424a;
+  margin-right: 5%;
+  padding-right: 25px;
+  padding-left: 25px;
+}

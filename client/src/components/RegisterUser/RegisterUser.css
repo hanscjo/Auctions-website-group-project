@@ -1,0 +1,41 @@
+.registerUser {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  margin-bottom: 150px;
+  border: 0.5px solid #35424a;
+  padding: 45px;
+  align-items: center;
+}
+
+.registerTitle {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 15px 25px;
+  line-height: 28px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  background: #35424a;
+}
+
+.loginInput {
+  width: 285px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  font-size: 15px;
+  display: block;
+  background: #fff;
+  border: 1px solid #ff00008f;
+  border-radius: 4px;
+}
+
+
+.registerButton {
+  width: 100%;
+}

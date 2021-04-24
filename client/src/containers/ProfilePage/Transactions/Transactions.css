@@ -1,0 +1,7 @@
+.transactionItem {
+  list-style: none;
+  margin-bottom: 30px;
+  border: 0.1px solid black;
+  width: 40%;
+  height: fit-content;
+}

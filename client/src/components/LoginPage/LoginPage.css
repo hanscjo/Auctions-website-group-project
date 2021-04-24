@@ -1,0 +1,26 @@
+.loginUser {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  margin-bottom: 150px;
+  border: 0.5px solid #35424a;
+  padding: 45px;
+  align-items: center;
+}
+
+.loginTitle {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 15px 25px;
+  line-height: 28px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  background: #35424a;
+}
+.wrongInput {
+  color: red;
+}

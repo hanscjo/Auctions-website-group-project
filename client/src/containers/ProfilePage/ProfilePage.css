@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+a:hover {
+ text-decoration: underline;
+ color: black;
+}
+
+h2, h3, h4 {
+ margin: 0;
+ padding: 0;
+ font-weight: normal;
+}
+
+h3, h4 {
+ padding: 1rem;
+}
+
+h4 {
+ padding-left: 2.5rem;
+}
+
+.profileOption {
+  color: #E8481D;
+}
+
+.profileOption:hover{
+  font-size: 29px;
+  text-decoration: underline;
+}
+
+.grayedOut {
+  color: gray;
+}
+
+/* Header */
+
+.profile--image {
+ position: relative;
+ width: 275px;
+ top: 4rem;
+ left: 17rem;
+ overflow: hidden;
+ border-radius: 50%;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ transition: all 0.9s ease-in-out;
+}
+
+.profile--image:hover {
+ box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+ transform: scale(1.05);
+ transition: all .7s ease-in-out;
+}
+
+#details {
+ position: absolute;
+ left: 39rem;
+ top: 20rem;
+}
+
+#details h1 {
+  margin-top: -1rem;
+}
+
+#details h2 {
+ font-weight: normal;
+ font-family: 'Fira Sans Condensed', sans-serif;
+ font-size: 24px;
+ margin-bottom: 1rem;
+}
+
+/* Profile */
+
+.profile {
+ margin: 4rem 0 0 18rem;
+ padding-bottom: 5rem;
+ font-size: 26px;
+}
+
+.grid-2 {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ padding-top: 2rem;
+}
+
+.grid-3 {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ padding-top: 2rem;
+}
+
+.grayed-out {
+ color: gray;
+}
+
+
+
+/* Small screens media queries */
+
+@media(max-width: 560px){
+
+ body {
+   margin: 0;
+   height: 100%;
+   font-size: 20px;
+ }
+
+ #showcase {
+   margin: 0 auto;
+ }
+
+ #profile {
+   margin: 0 auto;
+ }
+
+ .profile--image {
+   position: absolute;
+   display: block;
+   width: 250px;
+   margin: 0 auto;
+   left: 4rem;
+   top: 6.5rem;
+   border-radius: 50%;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   transition: all 0.9s ease-in-out;
+ }
+
+ #details {
+   position: absolute;
+   margin: 0 auto;
+   left: 9rem;
+   top: 24rem;
+   font-size: 18px;
+ }
+
+ #details h2 {
+   font-weight: normal;
+   font-size: 16px;
+   margin-bottom: 1rem;
+ }
+
+ #profile {
+   margin-left: 4rem;
+   margin-top: 21rem;
+ }
+
+ .grid-2 {
+   display: grid;
+   grid-template-columns: repeat(1, 2fr);
+   padding-top: 2rem;
+ }
+
+ .grid-3 {
+   display: grid;
+   grid-template-columns: repeat(1, 2fr);
+   padding-top: 2rem;
+ }
+}

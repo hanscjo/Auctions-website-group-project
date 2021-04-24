@@ -1,0 +1,48 @@
+.inputFields {
+  display: block;
+}
+
+.inputFields input{
+  font-size: 14px;
+}
+
+.inputElementName {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 400px; 
+  height: 50px;
+}
+
+.inputElementDesc {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 400px;
+}
+
+/* NOT FINISHED */
+.inputElementImage {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 400px;
+  border: 1px solid #8888;
+}
+
+.inputElementBid {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 400px;
+}
+
+.AuctionContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}

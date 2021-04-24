@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+
+body {
+  overflow-x: hidden;
+}
+
+.auction {
+  width: 500px;
+  height: 550px;
+  max-height: 550px;
+  margin: 3.5rem 2rem;
+  text-align: center;
+  padding: 0 25px;
+  background: #F2F2F2;
+  display: inline-block;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  background: #F2F2F2;
+  transition: all .5s ease-in-out;
+  color: #333;
+  padding: 1rem 0 0 0;
+  border-radius: 4px;
+}
+
+.auction:hover {
+  background: rgb(207, 207, 207);
+  transition: all .5s ease-in-out;
+}
+
+.auction h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: #FF2727;
+}
+
+.auction h3 {
+  margin: 0.5rem;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.auction h4 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.auction h5 {
+  display: inline;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.auction p {
+  margin: 0 0 1.5rem 0;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.auctionImage {
+  margin: 0 auto;
+  background: #333;
+  top: 0.8rem;
+  left: 6.2rem;
+  width: 300px;
+  height: 300px;
+}
+
+/* Footer */
+
+.footer {
+  background: white;
+  margin: 1.4rem 0 4.6rem 0;
+  padding: 1.5rem;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+}
+
+.bidInputField[type="number"] {
+  position: relative;
+  height: 1.1rem;
+  width: 10rem;
+  top: 0.1rem;
+  right: 0.5rem;
+  background: #F2F2F2;
+}
+
+.bidInputField:focus {
+  outline: rgb(207, 207, 207);
+}
